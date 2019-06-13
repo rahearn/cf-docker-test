@@ -2,7 +2,7 @@
 applications:
   - name: cf-test
     memory: 256M
-    disk_quota: 3G
+    disk_quota: 2G
     docker:
       image: rcahearn/cf-test
       username: rcahearn
