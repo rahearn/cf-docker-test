@@ -6,6 +6,8 @@ applications:
     docker:
       image: rcahearn/cf-test
       username: rcahearn
+    services:
+      - cf-test-psql
     env:
       RAILS_ENV: production
       RACK_ENV: production
